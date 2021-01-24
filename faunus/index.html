@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faunus</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/ee299b1b93.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    
+    <!-- stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <!-- scrpits -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <video src="/public/images/Pexels Videos 1448735 (1).mp4" 
+    autoplay loop playsinline muted></video>
+
+    <header>
+        <nav>
+           <div class="menu-icon">
+              <i class="fa fa-bars fa-2x"></i>
+           </div>
+           <a href="#">
+           <div class="logo">
+              Faunus
+           </div>
+          </a>
+           <div class="menu">
+              <ul>
+                 <li><a href="#about">ABOUT</a></li>
+                 <li><a href="https://faunus-predict.herokuapp.com/" target="_blank">PREDICT</a></li>
+                 <li><a href="#prevent">PREVENT</a></li>
+                 <li><a href="https://faunus-restore.herokuapp.com/" target="_blank">RESTORE</a></li>
+                 <li>
+                    <a href="https://faunus-sim.itch.io/faunus-simulator/" target="_blank"> 
+                        <button class="btn btn-gradient gradient2"> 
+                            Simulate
+                        </button></a>
+                 </li>
+              </ul>
+           </div>
+        </nav>  
+        <div class="viewport-header">
+            <a href="" class="btn-liquid">
+             
+                    <h1 class="inner">
+                        Predict.Prevent.Restore
+                      <div>                      
+                    </div>  
+                    </h1> 
+            </a>
+             
+         </div>
+     </header>
+
+  
+
+     <main class="container">
+
+
+          <!-- UNDERSTANDING THE PROBLEM -->
+        <div class="sections" data-aos="zoom-in" id="wildfire">
+            <h3 class="title">UNDERSTANDING THE PROBLEMS</h3>
+            <p> Forest fires are one of the major reasons for loss of forest ecosystems and human communities.
+                More than 3 million forest land is destroyed every year. In the longer term, they can adversely affect the supply of environmental services, threaten the survival of endangered species, the composition and structure of forests and the soil quality.
+                Forest fires can be caused due to natural or human activities but whatever might be the cause they need to be managed properly to minimise the damage to forest.     
+            </p>
+            <h4>What are the issues?</h4>
+            <div class="issues row">
+                <div class="col">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Lack of early information in order to tackle the fire </p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-shoe-prints"></i>
+                    <p>Absense of proactive steps to prevent forest fires</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-seedling"></i>
+                    <p>Improper management of destroyed forest land</p>
+                </div>
+            </div>
+        </div>  
+
+         <!-- ABOUT -->
+        <div class="sections" data-aos="zoom-in" id="about">
+            <h2 class="title">ABOUT</h2>
+            <div class="content">
+                <p> We came up with Faunus which provides an 
+                    end to end solution to all the 
+                    above mentioned problems.We propose an innovative solution by providing a 
+                    prediction,prevention and restoration of forest fires. 
+                    Below is our three-fold motto:
+                </p>
+                <div class="about row">
+                    <div class="col">
+                        <i class="fas fa-signal"></i>
+                        <p>PREDICT</p>
+                        <p>We take these parameters and our machine learning model 
+                            checks whether that area is susceptible to forest fires or not.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-stop-circle"></i>
+                        <p>PREVENT</p>
+                        <p>
+                            If an area is likely to have forest fire then we inform the user 
+                            about a list of measures that can be taken in order to avoid that disaster.
+                            We have also got a simulator to visualize the spread of forest fires.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-history"></i>
+                        <p>RESTORE</p>
+                        <p>
+                            If a land is destroyed by wildfires then we take certain parameters from 
+                            the user and provide them with 
+                            valuable information to restore the land fertility.
+                        </p>
+                    </div>
+                </div>
+            </div>          
+          </div>
+
+
+          <!-- PREDICT -->
+          <div class="sections" data-aos="zoom-in" id="predict">
+            <h2 class="title">PREDICT</h2>
+            <p> We take the following parameters and our machine learning model checks whether that area is susceptible to forest fires or not.</p>
+            <div class="predict row">
+                <div class="col">
+                    <i class="fas fa-cloud-rain"></i>
+                    <p>Rainfall</p>
+                </div>
+                <div class="col col-xs">
+                    <i class="fas fa-wind"></i>
+                    <p>Wind speed</p>
+                </div>
+                <div class="col col-xs">
+                    <i class="fas fa-grin-beam-sweat"></i>
+                    <p>Humidity</p>
+                </div>
+                <div class="col col-xs">
+                    <i class="fas fa-temperature-high"></i>
+                    <p>Temperature</p>
+                </div>
+                <div class="col col-xs">
+                    <i class="fas fa-plus-circle"></i>
+                    <p>More</p>
+                </div>
+            </div>
+            <div class="redirect">
+                <h3> Click here to Predict </h3>  
+                    <p>Here you can set specific parameters and our Machine Learning models will 
+                        predict if that are is in danger of forest fire</p>
+                    <a href="https://faunus-predict.herokuapp.com/" target="_blank"> 
+                    <button class="btn btn-gradient gradient2"> 
+                        Predict
+                    </button></a>
+            </div>
+        </div>
+
+             <!-- PREVENT-->
+             <div class="sections" id="prevent" data-aos="zoom-in" >
+                <h2 class="title">PREVENT</h2>
+                <p> Ways to prevent wildfires: </p>
+                <div class="row">                
+                <p class="col"> <span class="head"> Grazing-</span> It is one of the methods for reducing the risk of forest 
+                    fires, since it reduces the brush biomass, which serves as fuel for fires, 
+                    and consequently assists in preventing fires from starting and from spreading.Forest fires 
+                    start in low brush (leaves, twigs, grass), and their spreading to the treetops depends on 
+                    the contiguity of flammable substances between the forest floor and the treetops.
+                </p>
+                <p class="col"> <span class="head">Sanitation-</span>  Continuous work done throughout the lifecycle of the forest, 
+                    which includes removal of dead/desiccated/sick trees from the forest, 
+                    whether they are upright or prone. Trees that cannot be removed due to 
+                    problematic conditions are sawed into stumps around 1m long, which are 
+                    left scattered in that section.
+                </p>
+                </div>
+                <div class="row">
+                <p class="col"> <span class="head">Thinning –</span>  Ideally, thinning should be done every seven to ten years. 
+                    This entails removing the less developed trees and the withering trees. 
+                    Thinning in conifer forests is done in accordance with the density charts 
+                    that define the number of trees left while taking the age of the 
+                    forest into consideration and the quality of the habitat. </p>
+                 <p class="col">
+                     <span class="head">Pruning –</span>
+                     Pruning includes the lower branches of a tree up to a third of its height, 
+                    2.5m from the ground at most. In recreation areas and along trails (where there is a 
+                    higher risk for fires), pruning might be done as high as 4m. This is in order to 
+                    remove the lower branches of the tree so that the treetop is separated from the ground.
+                 </p>  
+                </div>
+                <div class="row">
+                 <p class="col">
+                     <span class="head">Removing the Cuttings and the Tree Waste –</span>
+                     The cuttings and waste are 
+                    transported from the forest area to the side of the road, where they get 
+                    chopped up and then removed from the forest for various uses or, alternatively,
+                    scattered on the ground. KKL JNF is careful about keeping a strip of forest 
+                    along the roads free of cuttings and tree waste, for at least 30m from the 
+                    roadside, and encourages the residents of nearby communities to use cuttings and 
+                    tree waste for heating and other uses.
+                 </p> 
+                 <p class="col">
+                     <span class="head">Burning the Cuttings – </span>
+                    This is an interface operation of great importance for the management 
+                    of cuttings, and it is customary in various forested countries as a routine treatment. 
+                    After sanitation, thinning and pruning, the cuttings must be dealt with, and in places where 
+                    the forest is on a steep slope or far from the road, the cuttings are burned in a glade. 
+                 </p>
+                </div>
+
+                <div class="row">
+                 <p class="col">
+                     <span class="head">Water –</span>
+                     Water supply infrastructure for providing fire trucks and firefighters 
+                    with water in the event of a fire. Water is logistically the most important 
+                    resource for extinguishing a fire.
+                 </p>
+                 <p class="col">
+                     <span class="head"> Watchtowers – </span>
+                   These watchtowers are intended for early detection of a forest 
+                    fire and directing firefighters to its location. The watchtowers are positioned
+                     in a network so that any smoke rising above the forest will be visible from at 
+                     least two watchtowers, which allows for precisely locating the fire that has 
+                     been detected. The watchtowers are all at least 12m high.
+                 </p>
+                </div>
+                <div class="row">
+                    <p class="col">
+                        <span class="head">Signposting –</span>
+                        Forest fire destination signs are mobile signs intended for a specific fire as 
+                        it is being extinguished that read: TO THE FIRE. In the event of a fire, these 
+                        signs are placed in the area by foresters in order to direct the firefighting 
+                        forces as they leave the main roads and follow routes leading directly to the 
+                        fire.
+                     </p>
+                     <div class="col"></div>
+                </div>
+
+                <div class="redirect">
+                    <h3> Click here to visualize</h3>  
+                        <p>This simulator can help in predicting the behaviour of forest 
+                            fire which inturn can help in effective wildfire management</p>
+                        <a href="https://faunus-sim.itch.io/faunus-simulator" target="_blank"> 
+                        <button class="btn btn-gradient gradient2"> 
+                            Simulate
+                        </button></a>
+                </div>
+                    
+                
+            </div>
+
+                 <!-- RESTORE -->
+          <div class="sections" data-aos="zoom-in" id="restore">
+            <h3 class="title">RESTORE</h3>
+            <div class="row">
+                <div class="col">
+                   
+                    <p class="head">Channel Treatment</p> 
+                    Channel treatments can used to modify sediment and water movement in stream channels, preventing flooding and debris torrents that threaten downstream communities and resources. These treatments often serve to slow water flow, 
+                    allowing sediment to settle out, and then release sediments gradually through decay.
+                </div>
+                <div class="col">
+                    
+                    <p class="head">Seeding</p> 
+                    The hillslope stabilization treatment can be done by aerial seeding of annual grasses. This activity has shown limited effectiveness, but remains the only method available to treat 
+                    large areas in a short period of time and at a reasonably low cost per acre.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="head">Mulching</p>
+                    
+                    Mulching is the most effective way to provide immediate ground cover to sensitive areas, but it also is relatively expensive and difficult to install. Also, a mixture of water, wood fiber mulch, seed and sometimes fertilizer known as hydromulch can be treated. This treatment provides 
+                    protective benefits during the first year, even if seeds don’t germinate.
+                </div>
+                <div class="col">
+                    <p class="head">Contour Log Felling</p>
+                    
+                    Burned logs onsite can be used to create a mechanical barrier to water flow that also traps sediment and promotes infiltration. Dead trees are felled, limbed, cut to manageable size and placed on a contour perpendicular to the direction of the slope. Long tubes of plastic netting filled with straw, known as straw wattles, 
+                    often are used in the same way as logs because they are easier and less hazardous to place.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="head">Silt Fences</p>  
+                    In areas where large-scale surface runoff with significant sedimentation is expected, 
+                    fences hung with specially designed fabric can be erected.
+                </div>
+                <div class="col">
+                    <p class="head">Tilling and Scarification</p>
+                    
+                    In areas where burn severity has created water repellent or hydrophobic soils, 
+                    breaking up the hardened soil layer to increase infiltration and improve conditions for reseeding. This scarification can be done by hand on steep slopes using hand-rakes known as McLeods, or it can be conducted mechanically 
+                    using all-terrain or other vehicles to drag a harrow across the ground.
+                </div>
+            </div>
+
+            <div class="redirect">
+                <h3> Click here to see appropriate restoration solutions</h3>  
+
+                    <a href="https://faunus-restore.herokuapp.com/" target="_blank"> 
+                    <button class="btn btn-gradient gradient2"> 
+                        Restore
+                    </button></a>
+            </div>
+          </div>
+
+     </main>
+     
+     <!-- Footer -->
+     <footer id="contact" class="footer-section">
+        <div class="container">
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <h3 class="title">Faunus</h3>
+                            </div>
+                            <div class="footer-text">
+                                <p>Faunus provides an end to end solution to all the above mentioned problems.
+                                    We propose an innovative solution by 
+                                    providing a prediction,prevention and restoration of forest fires. 
+                                    Our three fold motto is predict+prevent+restore</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#" ><i class="fab fa-facebook-f "></i></a>
+                                <a href="#" ><i class="fab fa-instagram"></i></a>
+                                <a href="#" ><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#predict">Predict</a></li>
+                                <li><a href="#prevent">Prevent</a></li>
+                                <li><a href="#restore">Restore</a></li>
+                                <li><a href="#footer">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="foot-img col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <img src="./public/images/undraw_nature_m5ll.svg" alt="nm">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2021, All Right Reserved</p>
+                            <a href="" target="_blank"><p>Made by Team Faunus</p></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="mailto:swetadash0610@mail.com">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+      <!-- scripts -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <script src="/public/js/index.js"></script>
+</body>
+</html>
