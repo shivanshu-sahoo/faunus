@@ -1,0 +1,27 @@
+.highlight {
+    border-radius: 0.4rem;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .blue {
+    background-color: rgba(0,0,0,0.5);
+  }
+  .red {
+    background-color: lightblue;
+  }
+
+  .heading{
+    text-align: center;
+    color: white;
+   
+  }
+
+  .heading h1{
+    font-size: 4rem;
+  }
+
+  .text{
+    color: white;
+  }
